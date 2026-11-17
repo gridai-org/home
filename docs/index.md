@@ -33,13 +33,15 @@ By the same logic, the share of European curtailment GridAI can address is a fra
 
 GridAI is structured around four layers. A *four-scale green infrastructure design* sites compute at four geo-energetic levels: nano-datacentres on low voltage (Home-DC, Building-DC) and micro-datacentres on medium and high voltage (Neighbourhood-DC, Hot-spot-DC). A *programmable data plane* on SRv6 and in-band telemetry measures the per-flow energy and carbon and selects the greenest inter-site path at line rate. A *multi-lever orchestrator* arbitrates at every step among four moves: consume now, charge storage, accelerate the deferrable backlog, or curtail. A *verifiable green-compute certificate* is produced as a byproduct of every decision, anchored in a site-level cryptographic root-of-trust and committed to a tamper-evident transparency log; the format is pushed toward an IETF Internet-Draft.
 
-## The empirical commitment
+## From models to pilots
 
-The framework is being validated end to end on a federated Italian testbed of energy-proximate sites, anchored on the PrinceLab cyber-physical platform at the Politecnico di Bari and connected through the GARR national research backbone. Over thirty-six months, the project will run a federated continual-learning workload of a contemporary large language model on renewable-native energy, demonstrate the storage-compute equivalence principle *in vivo*, and produce a third-party-auditable green-compute certificate covering the entire trajectory. An AI-RAN node is deployed as a second load, at the tightest edge of the envelope.
+Today the feasibility model and the orchestration framework are validated by models and trace-driven evaluation (see the NOMS 2026 paper and the position paper below). The next step is validation on real sites. The reference design is a federated testbed of energy-proximate sites, anchored on the PrinceLab cyber-physical platform at the Politecnico di Bari and connected through the GARR national research backbone. On it, a federated continual-learning workload of a contemporary large language model runs on renewable-native energy, the storage-compute equivalence principle is demonstrated *in vivo*, and a third-party-auditable green-compute certificate covers the entire trajectory. An AI-RAN node is a second load, at the tightest edge of the envelope.
 
 ## A European invitation
 
 The Italian testbed is the right scope for a single research effort, but not for the European-scale conclusions the framework is designed to inform. We invite European partners to engage along three concrete tracks: cross-validation of the simulator on non-Italian grid data, cross-deployment of the federated testbed across European sites via GARR/GÉANT, and IETF standardisation around green-computing monitoring and certification.
+
+We are also looking for partners to bring the framework to pilot scale in European funding calls: operators of data centres, colocation, cloud or edge sites that can host a pilot, sites with renewable generation and storage, and grid operators and utilities interested in data centres as flexible loads.
 
 ---
 
@@ -50,8 +52,8 @@ The Italian testbed is the right scope for a single research effort, but not for
 
 ---
 
-## The consortium
+## Who we are
 
-GridAI is a proposal under PRIN 2026, the main research-funding call of the Italian Ministry of University and Research. The consortium is composed of six Italian state universities: Politecnico di Bari, Politecnico di Milano, Politecnico di Torino, Università Federico II di Napoli, Università di Pisa, Università di Roma "Tor Vergata". It is supported by industrial and institutional stakeholders from the Italian and German energy, telecommunications and academic ecosystems.
+GridAI is a research initiative on carbon-aware, nomadic AI compute. It started from the work of researchers at six Italian universities: Politecnico di Bari, Politecnico di Milano, Politecnico di Torino, Università Federico II di Napoli, Università di Pisa, Università di Roma "Tor Vergata". The position paper is co-authored with colleagues from Open Fiber, the University of Würzburg, the University of Stuttgart and Telefónica.
 
-*Principal Investigator: Antonio Capone (Politecnico di Milano). Technical coordination contact: Stefano Salsano (Università di Roma Tor Vergata).*
+*Contacts: Stefano Salsano (Università di Roma Tor Vergata), stefano.salsano@uniroma2.it · Antonio Capone (Politecnico di Milano), antonio.capone@polimi.it.*
